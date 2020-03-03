@@ -1,0 +1,52 @@
+# Compiled source #
+.pyc
+
+# Packages #
+.zip
+.tar
+.rar
+.gz
+
+# Generated files
+.csv
+.xls
+.xlsx
+.doc
+.docx
+.pdf
+
+# Logs and databases
+*.log
+*.db
+*.sql
+*.sqlite
+*.sqlite3
+*.swp
+*.stackdump
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Directories
+**/__pycache__
+**/.vscode
+/db
+/static
+/logging
+/databases
+**/docs
+**/migrations/*
+!**/migrations/__init__.py
+**/.directory
+**/gui/static/gui
+**/startbootstrap-sb-admin-2-gh-pages
+**/gui/*.bat
+
+# Settings Files
+settings_local.py
